@@ -20,3 +20,11 @@ class Customer {
     this.id = ++customerId;
   }
 }
+
+class Meal {
+  constructor(title, price) {
+    this.title = title;
+    this.price = price;
+    this.id = ++mealId;
+  }
+}
