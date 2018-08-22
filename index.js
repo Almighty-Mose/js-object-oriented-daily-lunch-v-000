@@ -72,6 +72,7 @@ class Meal {
   
   customers() {
     const allCustomers = this.customers.map(delivery => delivery.customer());
+    return [...new Set(allCustomers)];
   }
 }
 
