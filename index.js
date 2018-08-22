@@ -69,6 +69,10 @@ class Meal {
       return delivery.mealId === this.id;
     });
   }
+  
+  customers() {
+    
+  }
 }
 
 class Delivery {
