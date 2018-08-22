@@ -43,6 +43,14 @@ class Customer {
       return delivery.customerId === this.id;
     });
   }
+  
+  meals() {
+    
+  }
+  
+  totalSpent() {
+    
+  }
 }
 
 class Meal {
