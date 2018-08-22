@@ -28,3 +28,17 @@ class Meal {
     this.id = ++mealId;
   }
 }
+
+class Delivery {
+  constructor(mealId, neighborhoodId, customerId) {
+    if(mealId){
+      this.mealId = mealId;
+    }
+    if(neighborhoodId){
+      this.neighborhoodId = neighborhoodId;
+    }
+    if(customerId){
+      this.customerId = customerId;
+    }
+  }
+}
