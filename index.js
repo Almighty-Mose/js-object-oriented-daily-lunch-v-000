@@ -12,3 +12,11 @@ class Neighborhood {
     this.id = ++neighborhoodId;
   }
 }
+
+class Customer {
+  constructor(name, neighborhoodId) {
+    this.name = name;
+    this.neighborhoodId = neighborhoodId;
+    this.id = ++customerId;
+  }
+}
