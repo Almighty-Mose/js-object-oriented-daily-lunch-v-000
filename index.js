@@ -13,6 +13,10 @@ class Neighborhood {
     
     store.neighborhoods.push(this);
   }
+  
+  deliveries() {
+    return 
+  }
 }
 
 class Customer {
