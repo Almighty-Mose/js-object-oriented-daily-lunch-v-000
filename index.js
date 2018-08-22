@@ -40,5 +40,6 @@ class Delivery {
     if(customerId){
       this.customerId = customerId;
     }
+    this.id == ++deliveryId;
   }
 }
