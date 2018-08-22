@@ -71,7 +71,7 @@ class Meal {
   }
   
   customers() {
-    const newCustomers = store.customers.map(delivery => delivery.customerId)
+    const allCustomers = this.customers.map(delivery => delivery.customer());
   }
 }
 
