@@ -86,10 +86,10 @@ class Delivery {
   }
   
   neighborhood() {
-      return store.neighborhoods.find(neighborhood => neighborhood.id === this.neighborhoodId);
+    return store.neighborhoods.find(neighborhood => neighborhood.id === this.neighborhoodId);
     }
 
-    customer() {
-      return store.customers.find(customer => customer.id === this.customerId);
-    }
+  customer() {
+    return store.customers.find(customer => customer.id === this.customerId);
+  }
 }
