@@ -46,7 +46,7 @@ class Delivery {
     if(customerId){
       this.customerId = customerId;
     }
-    this.id == ++deliveryId;
+    this.id = ++deliveryId;
     
     store.deliveries.push(this);
   }
